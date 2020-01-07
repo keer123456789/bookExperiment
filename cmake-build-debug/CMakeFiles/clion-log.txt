@@ -1,0 +1,4 @@
+"D:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/mingw64/bin/mingw32-make.exe -G "CodeBlocks - MinGW Makefiles" E:\code\c\bookExperiment
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/code/c/bookExperiment/cmake-build-debug
