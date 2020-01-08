@@ -1,6 +1,9 @@
 //
 // Created by keer on 2020/1/7.
 //
+/**
+ * 线性表的相关操作
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

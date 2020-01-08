@@ -45,6 +45,6 @@ extern int DeleteFirstList(struct List *L);
 
 extern int DeleteLastList(struct List *L);
 
-int DeletePosList(struct List *L,int pos);
+extern int DeletePosList(struct List *L,int pos);
 
-int DeleteValueList(struct List *L,int elementType);
+extern int DeleteValueList(struct List *L,int elementType);

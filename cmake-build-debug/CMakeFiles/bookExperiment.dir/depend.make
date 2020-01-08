@@ -3,6 +3,9 @@
 
 CMakeFiles/bookExperiment.dir/LinerList/OrderStore/OrderStore.c.obj: ../LinerList/OrderStore/OrderStore.c
 
+CMakeFiles/bookExperiment.dir/LinerList/UnOrderStore/UnOrderStore.c.obj: ../LinerList/UnOrderStore/UnOrderStore.c
+
 CMakeFiles/bookExperiment.dir/main.c.obj: ../LinerList/OrderStore.h
+CMakeFiles/bookExperiment.dir/main.c.obj: ../LinerList/UnOrderstore.h
 CMakeFiles/bookExperiment.dir/main.c.obj: ../main.c
 

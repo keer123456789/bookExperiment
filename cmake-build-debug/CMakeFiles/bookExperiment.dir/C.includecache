@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/code/c/bookExperiment/LinerList/OrderStore.h
-
-E:/code/c/bookExperiment/main.c
+E:/code/c/bookExperiment/LinerList/UnOrderStore/UnOrderStore.c
 stdio.h
 -
-LinerList/OrderStore.h
-E:/code/c/bookExperiment/LinerList/OrderStore.h
+stdlib.h
+-
 
