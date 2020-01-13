@@ -176,6 +176,60 @@ LinerList/UnOrderStore/UnOrderStore.c.s:
 	$(MAKE) -f CMakeFiles\bookExperiment.dir\build.make CMakeFiles/bookExperiment.dir/LinerList/UnOrderStore/UnOrderStore.c.s
 .PHONY : LinerList/UnOrderStore/UnOrderStore.c.s
 
+Stack/StackLink.obj: Stack/StackLink.c.obj
+
+.PHONY : Stack/StackLink.obj
+
+# target to build an object file
+Stack/StackLink.c.obj:
+	$(MAKE) -f CMakeFiles\bookExperiment.dir\build.make CMakeFiles/bookExperiment.dir/Stack/StackLink.c.obj
+.PHONY : Stack/StackLink.c.obj
+
+Stack/StackLink.i: Stack/StackLink.c.i
+
+.PHONY : Stack/StackLink.i
+
+# target to preprocess a source file
+Stack/StackLink.c.i:
+	$(MAKE) -f CMakeFiles\bookExperiment.dir\build.make CMakeFiles/bookExperiment.dir/Stack/StackLink.c.i
+.PHONY : Stack/StackLink.c.i
+
+Stack/StackLink.s: Stack/StackLink.c.s
+
+.PHONY : Stack/StackLink.s
+
+# target to generate assembly for a file
+Stack/StackLink.c.s:
+	$(MAKE) -f CMakeFiles\bookExperiment.dir\build.make CMakeFiles/bookExperiment.dir/Stack/StackLink.c.s
+.PHONY : Stack/StackLink.c.s
+
+Stack/StackSq.obj: Stack/StackSq.c.obj
+
+.PHONY : Stack/StackSq.obj
+
+# target to build an object file
+Stack/StackSq.c.obj:
+	$(MAKE) -f CMakeFiles\bookExperiment.dir\build.make CMakeFiles/bookExperiment.dir/Stack/StackSq.c.obj
+.PHONY : Stack/StackSq.c.obj
+
+Stack/StackSq.i: Stack/StackSq.c.i
+
+.PHONY : Stack/StackSq.i
+
+# target to preprocess a source file
+Stack/StackSq.c.i:
+	$(MAKE) -f CMakeFiles\bookExperiment.dir\build.make CMakeFiles/bookExperiment.dir/Stack/StackSq.c.i
+.PHONY : Stack/StackSq.c.i
+
+Stack/StackSq.s: Stack/StackSq.c.s
+
+.PHONY : Stack/StackSq.s
+
+# target to generate assembly for a file
+Stack/StackSq.c.s:
+	$(MAKE) -f CMakeFiles\bookExperiment.dir\build.make CMakeFiles/bookExperiment.dir/Stack/StackSq.c.s
+.PHONY : Stack/StackSq.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -218,6 +272,12 @@ help:
 	@echo ... LinerList/UnOrderStore/UnOrderStore.obj
 	@echo ... LinerList/UnOrderStore/UnOrderStore.i
 	@echo ... LinerList/UnOrderStore/UnOrderStore.s
+	@echo ... Stack/StackLink.obj
+	@echo ... Stack/StackLink.i
+	@echo ... Stack/StackLink.s
+	@echo ... Stack/StackSq.obj
+	@echo ... Stack/StackSq.i
+	@echo ... Stack/StackSq.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

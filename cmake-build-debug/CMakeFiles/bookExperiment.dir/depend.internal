@@ -5,7 +5,12 @@ CMakeFiles/bookExperiment.dir/LinerList/OrderStore/OrderStore.c.obj
  E:/code/c/bookExperiment/LinerList/OrderStore/OrderStore.c
 CMakeFiles/bookExperiment.dir/LinerList/UnOrderStore/UnOrderStore.c.obj
  E:/code/c/bookExperiment/LinerList/UnOrderStore/UnOrderStore.c
+CMakeFiles/bookExperiment.dir/Stack/StackLink.c.obj
+ E:/code/c/bookExperiment/Stack/StackLink.c
+CMakeFiles/bookExperiment.dir/Stack/StackSq.c.obj
+ E:/code/c/bookExperiment/Stack/StackSq.c
 CMakeFiles/bookExperiment.dir/main.c.obj
  E:/code/c/bookExperiment/LinerList/OrderStore.h
  E:/code/c/bookExperiment/LinerList/UnOrderstore.h
+ E:/code/c/bookExperiment/Stack/StackSq.h
  E:/code/c/bookExperiment/main.c

@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/bookExperiment.dir/main.c.obj"
   "CMakeFiles/bookExperiment.dir/LinerList/OrderStore/OrderStore.c.obj"
   "CMakeFiles/bookExperiment.dir/LinerList/UnOrderStore/UnOrderStore.c.obj"
+  "CMakeFiles/bookExperiment.dir/Stack/StackSq.c.obj"
+  "CMakeFiles/bookExperiment.dir/Stack/StackLink.c.obj"
   "bookExperiment.pdb"
   "bookExperiment.exe"
   "bookExperiment.exe.manifest"

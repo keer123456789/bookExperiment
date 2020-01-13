@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include "LinerList/OrderStore.h"
 #include "LinerList/UnOrderstore.h"
+#include "Stack/StackSq.h"
 int main() {
     printf("****************************\n");
-    printf("线性表输入：1，链表输入：2\n");
+    printf("线性表输入：1，链接表输入：2\n");
+    printf("顺序栈输入：3，链接栈输入：4\n");
     printf("****************************\n");
     int b;
     scanf("%d",&b);
@@ -69,6 +71,26 @@ int main() {
             ClearNodeList(&p);
         }
             break;
+        case 3:{
+            struct StackSq s;
+            int a[8]={3,8,5,17,9,30,15,22};
+            int i;
+            InitStackSqByMaxsize(&s,5);
+            for(i=0;i<8;i++){
+                Push(&s,a[i]);
+            }
+            printf("%d\n",Pop(&s));
+            printf("%d\n",Pop(&s));
+            Push(&s,68);
+            printf("%d\n",Peek(&s));
+            printf("%d\n",Pop(&s));
+            while(!EmptyStack(&s)){
+                printf("%d ",Pop(&s));
+            }
+            printf("\n");
+            ClearStack(&s);
 
+        }
+            break;
     }
 }
