@@ -3,6 +3,7 @@
 #include "LinerList/OrderStore.h"
 #include "LinerList/UnOrderstore.h"
 #include "Stack/StackSq.h"
+
 int main() {
     printf("****************************\n");
     printf("线性表输入：1，链接表输入：2\n");
@@ -77,7 +78,7 @@ int main() {
             int i;
             InitStackSqByMaxsize(&s,5);
             for(i=0;i<8;i++){
-                Push(&s,a[i]);
+                PushLink(&s,a[i]);
             }
             printf("%d\n",Pop(&s));
             printf("%d\n",Pop(&s));
@@ -92,5 +93,23 @@ int main() {
 
         }
             break;
+        case 4:{
+            struct sNode *p;
+            int a[8]={3,8,5,17,9,30,15,22};
+            InitStackLink(&p);
+            for(int i=0;i<8;i++){
+                PushLink(&p,a[i]);
+            }
+            printf("%d\n",PopLink(&p));
+            printf("%d\n",PopLink(&p));
+            PushLink(&p,68);
+            printf("%d\n",PeekLink(&p));
+            printf("%d\n",PopLink(&p));
+            while(!EmptyStackLink(&p)){
+                printf("%d ",PopLink(&p));
+            }
+            printf("\n");
+            ClearStackLink(&p);
+        }
     }
 }
