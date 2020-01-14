@@ -15,11 +15,11 @@ extern void InitStackSq(struct StackSq *s);
 
 extern void InitStackSqByMaxsize(struct StackSq *s, int ms);
 
-extern void Push(struct StackSq *s, int x);
+extern void Push(struct StackSq *s, double x);
 
-extern int Pop(struct StackSq *s);
+extern double Pop(struct StackSq *s);
 
-extern int Peek(struct StackSq *s);
+extern double Peek(struct StackSq *s);
 
 extern int EmptyStack(struct StackSq *s);
 

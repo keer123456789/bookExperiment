@@ -3,9 +3,10 @@
 //
 #include <stdlib.h>
 #include <stdio.h>
-
+//typedef double ElemType;
+//typedef int ElemType;
 struct StackSq {
-    int *stack;
+    double *stack;
     int top;
     int MaxSize;
 };
@@ -16,7 +17,7 @@ struct StackSq {
  */
 void InitStackSq(struct StackSq *s) {
     s->MaxSize = 10;
-    s->stack = malloc(10 * sizeof(int));
+    s->stack = malloc(10 * sizeof(double));
     s->top = -1;
 }
 
@@ -30,7 +31,7 @@ void InitStackSqByMaxsize(struct StackSq *s, int ms) {
         printf("ms的值输入非法！！程序退出！！\n");
         exit(1);
     }
-    s->stack = malloc(ms * sizeof(int));
+    s->stack = malloc(ms * sizeof(double));
     if (!s->stack) {
         printf("空间不足！！程序退出！！\n");
         exit(1);
@@ -45,7 +46,7 @@ void InitStackSqByMaxsize(struct StackSq *s, int ms) {
  */
 void againMallocforStackSq(struct StackSq *L) {
     /*空间扩展为原来的两倍，原内容自动拷贝到指针p中*/
-    int *p = realloc(L->stack, 2 * L->MaxSize * sizeof(int));
+    double *p = realloc(L->stack, 2 * L->MaxSize * sizeof(double));
     if (!p) {
         printf("存储空间用完！程序退出！！\n");
         exit(1);
@@ -60,7 +61,7 @@ void againMallocforStackSq(struct StackSq *L) {
  * @param s
  * @param x
  */
-void Push(struct StackSq *s, int x) {
+void Push(struct StackSq *s, double x) {
     if (s->top == s->MaxSize - 1) {
         againMallocforStackSq(s);
     }
@@ -73,13 +74,13 @@ void Push(struct StackSq *s, int x) {
  * @param s
  * @return
  */
-int Pop(struct StackSq *s) {
+double Pop(struct StackSq *s) {
     if (s->top == -1) {
         printf("栈空！！无元素！！退出程序！！");
         exit(1);
     }
     s->top--;
-    return s->stack[s->top + 1];
+    return s->stack[(s->top )+ 1];
 }
 
 /**
@@ -87,7 +88,7 @@ int Pop(struct StackSq *s) {
  * @param s
  * @return
  */
-int Peek(struct StackSq *s) {
+double Peek(struct StackSq *s) {
     if (s->top == -1) {
         printf("栈空！！无元素！！退出程序！！");
         exit(1);
